@@ -1,0 +1,30 @@
+{
+	"name": "testing-express-deployment",
+	"version": "1.0.0",
+	"description": "https://dev.to/tirthpatel/deploy-node-ts-express-typescript-on-vercel-284h",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon src/index.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MHammad33/Testing-Express-Deployment.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/MHammad33/Testing-Express-Deployment/issues"
+	},
+	"homepage": "https://github.com/MHammad33/Testing-Express-Deployment#readme",
+	"dependencies": {
+		"express": "^5.1.0"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.3",
+		"@types/node": "^24.0.7",
+		"nodemon": "^3.1.10",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.3"
+	}
+}
